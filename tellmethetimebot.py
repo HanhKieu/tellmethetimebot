@@ -19,17 +19,25 @@ def url_generator(user_input):
 def main():
 
 
-    file_object = open("html.txt","w")
-    user_input = "what time is it in china"
+    user_input = input("Enter Query Request: ")
     website_url = url_generator(user_input)
     r = requests.get(website_url)
     soup = BeautifulSoup(r.content)
-    file_object.write(soup.prettify())
     current_time_text = soup.find_all("div", class_="b_focusLabel")
     current_time = soup.find_all("div", class_="b_focusTextLarge")
     standard_time = soup.find_all("div", class_="b_factrow")
 
-    print(current_time_text,current_time,standard_time)
-
+    try:
+        print(current_time_text[0].text)
+    except:
+        pass
+    try:
+        print(current_time[0].text)
+    except:
+        pass
+    try:
+        print(standard_time[0].text)
+    except:
+        pass
 
 main()
