@@ -9,7 +9,7 @@ si_ST=new Date;
   <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
   <script type="text/javascript">
    //<![CDATA[
-window.onerror||(window.onerror=function(n,t,i){var r="";r=typeof n=="object"&&n.srcElement&&n.srcElement.src?"\"ScriptSrc = '"+escape(n.srcElement.src.replace(/'/g,""))+"'\"":'"'+escape(n.replace(/"/g,""))+'","Meta":"'+escape(t)+'","Line":'+i,(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.Error","FID":"CI","Name":"JSError","Text":'+r+"}]",typeof sj_evt!="undefined"&&sj_evt.fire("ErrorInstrumentation",r)});_G={ST:(si_ST?si_ST:new Date),Mkt:"en-US",RTL:false,Ver:"9_00_0_3154553",IG:"bcdb89971556445db485be8fee613c0c",EventID:"5ab693323f68468781fec5cbac2fbb03",MN:"SERP",V:"web",P:"SERP",DA:"CO3",CID:"350275FA88456F0103A9736B89566F6E",SUIH:"xh4NJ4TIVLphzxXZptPGAQ",gpUrl:"\/fd\/ls\/GLinkPing.aspx?"};_G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID;curUrl="http:\/\/www.bing.com\/search";function si_T(a){if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return true;};
+window.onerror||(window.onerror=function(n,t,i){var r="";r=typeof n=="object"&&n.srcElement&&n.srcElement.src?"\"ScriptSrc = '"+escape(n.srcElement.src.replace(/'/g,""))+"'\"":'"'+escape(n.replace(/"/g,""))+'","Meta":"'+escape(t)+'","Line":'+i,(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.Error","FID":"CI","Name":"JSError","Text":'+r+"}]",typeof sj_evt!="undefined"&&sj_evt.fire("ErrorInstrumentation",r)});_G={ST:(si_ST?si_ST:new Date),Mkt:"en-US",RTL:false,Ver:"9_00_0_3154553",IG:"0575a5c952dc43e68dc2b5f0d319c816",EventID:"0b958abc9b7a4487a153783cea09f05f",MN:"SERP",V:"web",P:"SERP",DA:"CO3",CID:"1F66CA1D79D36F640178CC8C78C06F16",SUIH:"AVzUx2xpTwIR2TGq_XzgXQ",gpUrl:"\/fd\/ls\/GLinkPing.aspx?"};_G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID;curUrl="http:\/\/www.bing.com\/search";function si_T(a){if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return true;};
 //]]>
   </script>
   <style type="text/css">
@@ -17,7 +17,7 @@ window.onerror||(window.onerror=function(n,t,i){var r="";r=typeof n=="object"&&n
   </style>
   <script type="text/javascript">
    //<![CDATA[
-var amd,define,require;(function(n){function e(n,i,u){t[n]||(t[n]={dependencies:i,callback:u},r(n))}function r(){if(arguments.length==0){if(!f){for(var n in t)u(n);f=!0}return i}if(arguments.length==1)return u(arguments[0])}function u(n){var s,e;if(i[n])return i[n];if(t.hasOwnProperty(n)){var h=t[n],f=h.dependencies,l=h.callback,a=r,o={},c=[a,o];if(f.length<2)throw error("invalid usage");else if(f.length>2)for(s=f.slice(2,f.length),e=0;e<s.length;e++)c.push(u(s[e]));return l.apply(this,c),i[n]=o,o}}var t={},i={},f=!1;n.define=e,n.require=r})(amd||(amd={})),define=amd.define,require=amd.require;var _w=window,_d=document,sb_ie=window.ActiveXObject!==undefined,sb_i6=sb_ie&&!_w.XMLHttpRequest,_ge=function(n){return _d.getElementById(n)},sb_st=function(n,t){return setTimeout(n,t)},sb_ct=function(n){clearTimeout(n)},sb_gt=function(){return+new Date},sj_gx=function(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest};_w.sj_ce=function(n){return _d.createElement(n)},_w.sk_merge||(_w.sk_merge=function(n){_d.cookie=n});define("fallback",["require","exports"],function(n,t){function u(){return function(){for(var t=[],i,n=0;n<arguments.length-0;n++)t[n]=arguments[n+0];i=e(arguments.callee),t[0]==="onPP"&&o(),i.push(t)}}function e(n){for(var t in i)if(i[t].h===n)return i[t].q}function f(n,t){for(var e=n.split("."),i=_w,f,r=0;r<e.length;r++)f=e[r],typeof i[f]=="undefined"&&t&&(i[f]=r===e.length-1?u():{}),i=i[f];return i}function o(){var e=i["rms.js"].q,o,f,t,n,r,u;if(e.length>0)for(o=!1,f=0;f<e.length;f++){for(t=e[f],n=0;n<t.length;n++)if(r=t[n]["A:Shared.Bundle"],r||(r=t[n]["A:rmsBu0"]),r){u=_d.createElement("script"),u.setAttribute("data-rms","1"),u.src=r,u.type="text/javascript",setTimeout(function(){_d.body.appendChild(u)},0),t.splice(n,1),o=!0;break}if(o)break}}function s(){for(var t,u,n=0;n<r.length;n++)t=r[n],u=f(t,!0),i[t]={h:u,q:[]}}function h(){for(var t,n=0;n<r.length;n++){var e=r[n],o=i[e].q,s=f(e);for(t=0;t<o.length;t++)s.toString()!==u().toString()&&s.apply(null,o[t])}}function c(n,t,i,r){(n===_w||n===_d||n===_d.body)&&t=="load"?_w.sj_evt.bind("onP1",i,!0):n.addEventListener?n.addEventListener(t,i,r):n.attachEvent?n.attachEvent("on"+t,i):n["on"+t]=i}var r=["rms.js","sj_evt.bind","sj_evt.fire","sj_jb","sj_wf","sj_cook.get","sj_cook.set","sj_pd","sj_sp","sj_be","sj_go","sj_ue","sj_evt.unbind","sj_et","Log.Log"],i={};t.replay=h,s(),_w.sj_be=c});function lb(){_w.si_sendCReq&&sb_st(_w.si_sendCReq,800),_w.lbc&&_w.lbc()};function si_ct(n,t){var r="getAttribute",u,i,f;try{for(;n!==document.body;n=n.parentNode){if(u=n.tagName=="A"&&n[r]("h")||n[r]("_ct"),u){i=n[r]("_ctf"),i&&_w[i]||(i="si_T"),_w[i]&&_w[i]("&"+u);break}if(t)break}}catch(e){}return!0}(function(){sj_be(document,"mousedown",function(n){si_ct(sb_ie?event.srcElement:n.target)},!1)})();var wlc_d = 1500,wlc_t = 63543142753;;var sj_log=function(n,t,i){var r=new RegExp('"',"g");(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"'+n+'","FID":"CI","Name":"'+t+'","Text":"'+escape(i.replace(r,""))+'"}]'};_w.p1="onLazyLoadStart";_w.si_PP=function(n,t,i){var r,e,u,o,s,l,a,f,v,h,c;if(!_G.PPS){for(e=["FC","BC","H","BP",null];r=e.shift();)e.push('"'+r+'":'+(_G[r+"T"]?_G[r+"T"]-_G.ST:-1));if(u=i||_w.performance&&_w.performance.timing,o=null,u&&(s=["unloadEventStart","unloadEventEnd","redirectStart","redirectEnd","fetchStart","domainLookupStart","domainLookupEnd","connectStart","connectEnd","secureConnectionStart","requestStart","responseStart","domLoading","domInteractive","domContentLoadedEventStart","domContentLoadedEventEnd","domComplete","loadEventStart","loadEventEnd","msFirstPaint","responseEnd",""],l=u.navigationStart,l>=0)){for(v=h=a=0;r=s.shift();a++)f=u[r],f>0&&(v|=1<<a,f-=l,s.push(f===h?"":(f-h).toString(16)),h=f);c="navigation",o=',"w3c":"'+v.toString(16)+","+s.join()+'","nav":'+(c in u?u[c]:performance[c].type)}_G.PPImg=new Image,_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t||"L")+'",'+e.join(",")+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+"}"+(_G.C1?","+_G.C1:"")+(o!==null?o:"")+"}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:"")+(_G.MN?"&MN="+_G.MN:""),_G.PPS=1,sb_st(function(){sj_evt.fire("onPP"),sj_evt.fire(_w.p1)},1)}},_w.onbeforeunload=function(){si_PP(new Date,"A")};(function(n){var i,r,t;if(document.querySelector){i=[],r="ad";function u(){var c=sb_gt(),u=document.documentElement,r=document.body,f=-1,e=-1,o=u.clientHeight,s=["#b_results .b_ad",".sb_adsWv2",".ads"],t,h,n;if(r){for(t=0;t<s.length;t++)if(h=s[t],n=document.querySelector(h),n&&n.offsetTop<o){f=n.offsetHeight,e=n.offsetTop;break}i=[e,f,u.clientWidth,o,r.offsetWidth,r.offsetHeight,sb_gt()-c]}}n?(t=n.onbeforefire,n.onbeforefire=function(){t&&t(),u(),n.mark(r,i)}):(t=si_PP,si_PP=function(){u();var n='"'+r+'":['+i.join()+"]";_G.C1=_G.C1?_G.C1+","+n:n,t.apply(null,[].slice.apply(arguments))})}})(_w.pp);_w.AM=["live.com","virtualearth.net","windows.net","onenote.com","hexun.com","dict.bing.com.cn","msn.com","variflight.com","bing.net","msftoffers.com"];(function(){function f(t,r){var u=t.tagName;return(u==="SCRIPT"&&(n.href=t.src)||u==="OBJECT"&&t.type&&t.type.indexOf("flash")>0&&(n.href=t.data))&&n.href.length>0&&n.hostname.length>0&&n.hostname!==location.hostname&&!e(n.hostname)?(sj_log("CI.AntiMalware",r,u.substr(0,1)+":"+n.href.substr(0,i)),!1):!0}function e(n){for(var i=0;i<t.length;i++)if(n.indexOf(t[i])>=0)return!0;return!1}var t=_w.AM,i=100,n=document.createElement("A"),r,u;document.write=function(n){n.length>0&&sj_log("CI.AntiMalware","DW",n.substr(0,i))},typeof Element!="undefined"&&Element.prototype&&(r=Element.prototype.appendChild,Element.prototype.appendChild=function(n){return f(n,"AC")?r.apply(this,arguments):null},u=Element.prototype.insertBefore,Element.prototype.insertBefore=function(n){return f(n,"IB")?u.apply(this,arguments):null})})();
+var amd,define,require;(function(n){function e(n,i,u){t[n]||(t[n]={dependencies:i,callback:u},r(n))}function r(){if(arguments.length==0){if(!f){for(var n in t)u(n);f=!0}return i}if(arguments.length==1)return u(arguments[0])}function u(n){var s,e;if(i[n])return i[n];if(t.hasOwnProperty(n)){var h=t[n],f=h.dependencies,l=h.callback,a=r,o={},c=[a,o];if(f.length<2)throw error("invalid usage");else if(f.length>2)for(s=f.slice(2,f.length),e=0;e<s.length;e++)c.push(u(s[e]));return l.apply(this,c),i[n]=o,o}}var t={},i={},f=!1;n.define=e,n.require=r})(amd||(amd={})),define=amd.define,require=amd.require;var _w=window,_d=document,sb_ie=window.ActiveXObject!==undefined,sb_i6=sb_ie&&!_w.XMLHttpRequest,_ge=function(n){return _d.getElementById(n)},sb_st=function(n,t){return setTimeout(n,t)},sb_ct=function(n){clearTimeout(n)},sb_gt=function(){return+new Date},sj_gx=function(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest};_w.sj_ce=function(n){return _d.createElement(n)},_w.sk_merge||(_w.sk_merge=function(n){_d.cookie=n});define("fallback",["require","exports"],function(n,t){function u(){return function(){for(var t=[],i,n=0;n<arguments.length-0;n++)t[n]=arguments[n+0];i=e(arguments.callee),t[0]==="onPP"&&o(),i.push(t)}}function e(n){for(var t in i)if(i[t].h===n)return i[t].q}function f(n,t){for(var e=n.split("."),i=_w,f,r=0;r<e.length;r++)f=e[r],typeof i[f]=="undefined"&&t&&(i[f]=r===e.length-1?u():{}),i=i[f];return i}function o(){var e=i["rms.js"].q,o,f,t,n,r,u;if(e.length>0)for(o=!1,f=0;f<e.length;f++){for(t=e[f],n=0;n<t.length;n++)if(r=t[n]["A:Shared.Bundle"],r||(r=t[n]["A:rmsBu0"]),r){u=_d.createElement("script"),u.setAttribute("data-rms","1"),u.src=r,u.type="text/javascript",setTimeout(function(){_d.body.appendChild(u)},0),t.splice(n,1),o=!0;break}if(o)break}}function s(){for(var t,u,n=0;n<r.length;n++)t=r[n],u=f(t,!0),i[t]={h:u,q:[]}}function h(){for(var t,n=0;n<r.length;n++){var e=r[n],o=i[e].q,s=f(e);for(t=0;t<o.length;t++)s.toString()!==u().toString()&&s.apply(null,o[t])}}function c(n,t,i,r){(n===_w||n===_d||n===_d.body)&&t=="load"?_w.sj_evt.bind("onP1",i,!0):n.addEventListener?n.addEventListener(t,i,r):n.attachEvent?n.attachEvent("on"+t,i):n["on"+t]=i}var r=["rms.js","sj_evt.bind","sj_evt.fire","sj_jb","sj_wf","sj_cook.get","sj_cook.set","sj_pd","sj_sp","sj_be","sj_go","sj_ue","sj_evt.unbind","sj_et","Log.Log"],i={};t.replay=h,s(),_w.sj_be=c});function lb(){_w.si_sendCReq&&sb_st(_w.si_sendCReq,800),_w.lbc&&_w.lbc()};function si_ct(n,t){var r="getAttribute",u,i,f;try{for(;n!==document.body;n=n.parentNode){if(u=n.tagName=="A"&&n[r]("h")||n[r]("_ct"),u){i=n[r]("_ctf"),i&&_w[i]||(i="si_T"),_w[i]&&_w[i]("&"+u);break}if(t)break}}catch(e){}return!0}(function(){sj_be(document,"mousedown",function(n){si_ct(sb_ie?event.srcElement:n.target)},!1)})();var wlc_d = 1500,wlc_t = 63543143824;;var sj_log=function(n,t,i){var r=new RegExp('"',"g");(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"'+n+'","FID":"CI","Name":"'+t+'","Text":"'+escape(i.replace(r,""))+'"}]'};_w.p1="onLazyLoadStart";_w.si_PP=function(n,t,i){var r,e,u,o,s,l,a,f,v,h,c;if(!_G.PPS){for(e=["FC","BC","H","BP",null];r=e.shift();)e.push('"'+r+'":'+(_G[r+"T"]?_G[r+"T"]-_G.ST:-1));if(u=i||_w.performance&&_w.performance.timing,o=null,u&&(s=["unloadEventStart","unloadEventEnd","redirectStart","redirectEnd","fetchStart","domainLookupStart","domainLookupEnd","connectStart","connectEnd","secureConnectionStart","requestStart","responseStart","domLoading","domInteractive","domContentLoadedEventStart","domContentLoadedEventEnd","domComplete","loadEventStart","loadEventEnd","msFirstPaint","responseEnd",""],l=u.navigationStart,l>=0)){for(v=h=a=0;r=s.shift();a++)f=u[r],f>0&&(v|=1<<a,f-=l,s.push(f===h?"":(f-h).toString(16)),h=f);c="navigation",o=',"w3c":"'+v.toString(16)+","+s.join()+'","nav":'+(c in u?u[c]:performance[c].type)}_G.PPImg=new Image,_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t||"L")+'",'+e.join(",")+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+"}"+(_G.C1?","+_G.C1:"")+(o!==null?o:"")+"}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:"")+(_G.MN?"&MN="+_G.MN:""),_G.PPS=1,sb_st(function(){sj_evt.fire("onPP"),sj_evt.fire(_w.p1)},1)}},_w.onbeforeunload=function(){si_PP(new Date,"A")};(function(n){var i,r,t;if(document.querySelector){i=[],r="ad";function u(){var c=sb_gt(),u=document.documentElement,r=document.body,f=-1,e=-1,o=u.clientHeight,s=["#b_results .b_ad",".sb_adsWv2",".ads"],t,h,n;if(r){for(t=0;t<s.length;t++)if(h=s[t],n=document.querySelector(h),n&&n.offsetTop<o){f=n.offsetHeight,e=n.offsetTop;break}i=[e,f,u.clientWidth,o,r.offsetWidth,r.offsetHeight,sb_gt()-c]}}n?(t=n.onbeforefire,n.onbeforefire=function(){t&&t(),u(),n.mark(r,i)}):(t=si_PP,si_PP=function(){u();var n='"'+r+'":['+i.join()+"]";_G.C1=_G.C1?_G.C1+","+n:n,t.apply(null,[].slice.apply(arguments))})}})(_w.pp);_w.AM=["live.com","virtualearth.net","windows.net","onenote.com","hexun.com","dict.bing.com.cn","msn.com","variflight.com","bing.net","msftoffers.com"];(function(){function f(t,r){var u=t.tagName;return(u==="SCRIPT"&&(n.href=t.src)||u==="OBJECT"&&t.type&&t.type.indexOf("flash")>0&&(n.href=t.data))&&n.href.length>0&&n.hostname.length>0&&n.hostname!==location.hostname&&!e(n.hostname)?(sj_log("CI.AntiMalware",r,u.substr(0,1)+":"+n.href.substr(0,i)),!1):!0}function e(n){for(var i=0;i<t.length;i++)if(n.indexOf(t[i])>=0)return!0;return!1}var t=_w.AM,i=100,n=document.createElement("A"),r,u;document.write=function(n){n.length>0&&sj_log("CI.AntiMalware","DW",n.substr(0,i))},typeof Element!="undefined"&&Element.prototype&&(r=Element.prototype.appendChild,Element.prototype.appendChild=function(n){return f(n,"AC")?r.apply(this,arguments):null},u=Element.prototype.insertBefore,Element.prototype.insertBefore=function(n){return f(n,"IB")?u.apply(this,arguments):null})})();
 //]]>
   </script>
   <title>
@@ -26,7 +26,7 @@ var amd,define,require;(function(n){function e(n,i,u){t[n]||(t[n]={dependencies:
   <link href="/search?format=rss&amp;q=what+time+is+it+in+china" rel="alternate" title="XML" type="text/xml"/>
   <link href="/search?format=rss&amp;q=what+time+is+it+in+china" rel="alternate" title="RSS" type="application/rss+xml"/>
   <link href="/s/a/bing_p.ico" rel="icon"/>
-  <!-- FD: 881980E5FE64AFAB7ACCAD410DBBD0FB -->
+  <!-- FD: 74F5F3CA66619121A90E8A0BE5E1E263 -->
  </head>
  <body class=" " onload="if(_w.lb)lb();">
   <!--FdBodyAsync-->
@@ -112,7 +112,7 @@ var amd,define,require;(function(n){function e(n,i,u){t[n]||(t[n]={dependencies:
   </header>
   <script type="text/javascript">
    //<![CDATA[
-var wlc_d = 1500,wlc_t = 63543142753;;_G.AppVer="8_01_1_3165997";
+var wlc_d = 1500,wlc_t = 63543143824;;_G.AppVer="8_01_1_3165997";
 //]]>
   </script>
   <!--snr2-->
@@ -138,7 +138,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
   <div id="b_content">
    <div id="b_tween">
     <span class="sb_count">
-     111,000,000 results
+     108,000,000 results
     </span>
     <span class="ftrB">
      <a class="ftrH" h="ID=SERP,5247.1" href="javascript:" id="h5252">
@@ -156,7 +156,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
      <ul class="b_vList">
       <li>
        <div class="b_focusTextLarge">
-        8:59:13 AM
+        9:17:04 AM
        </div>
       </li>
      </ul>
@@ -182,7 +182,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
       </a>
      </h2>
      <div class="b_caption">
-      <div class="b_attribution" u="0N|5093|4557666034713563|sqJXOj_356AYllRyA0X21ChrwcvnzBZF">
+      <div class="b_attribution" u="0N|5093|4557666035106778|BR004wU1fqsYllRyA0X21ChrwcvnzBZF">
        <cite>
         <strong>
          www.worldtimeserver.com
@@ -291,11 +291,15 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
        <strong>
         China
        </strong>
-       – Beijing Municipality ...
+       –
+       <strong>
+        Beijing
+       </strong>
+       Municipality ...
       </a>
      </h2>
      <div class="b_caption">
-      <div class="b_attribution" u="1|5094|5016694894757106|lW7Um3QuupzpVGq2eXxViRplPVz2nxTR">
+      <div class="b_attribution" u="1|5094|5016694895150322|89JR4C8mNjHpVGq2eXxViRplPVz2nxTR">
        <cite class="sb_crmb">
         <span>
          <strong>
@@ -332,17 +336,33 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
        <strong>
         China
        </strong>
-       – Beijing Municipality – Beijing. Get Beijing's weather and area codes,
+       –
+       <strong>
+        Beijing
+       </strong>
+       Municipality –
+       <strong>
+        Beijing
+       </strong>
+       . Get
+       <strong>
+        Beijing
+       </strong>
+       's weather and area codes,
        <strong>
         time zone
        </strong>
-       and DST. Explore Beijing's sunrise and ...
+       and DST. Explore
+       <strong>
+        Beijing
+       </strong>
+       's sunrise and ...
       </p>
      </div>
     </li>
     <li class="b_algo">
      <h2>
-      <a h="ID=SERP,5164.1" href="http://dateandtime.info/country.php?code=CN">
+      <a h="ID=SERP,5152.1" href="http://dateandtime.info/country.php?code=CN">
        <strong>
         What time is it in China
        </strong>
@@ -357,7 +377,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
       </a>
      </h2>
      <div class="b_caption">
-      <div class="b_attribution" u="4|5095|4918099676693230|xGBT-rD13bS8fj1_MCUGtTdicN4u_2zW">
+      <div class="b_attribution" u="3|5095|4918099677086446|37pWisVNlsS8fj1_MCUGtTdicN4u_2zW">
        <cite>
         dateand
         <strong>
@@ -366,7 +386,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
         .info/country.php?code=CN
        </cite>
        <span class="c_tlbxTrg">
-        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5165.1">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5153.1">
         </span>
        </span>
       </div>
@@ -424,7 +444,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
     </li>
     <li class="b_algo">
      <h2>
-      <a h="ID=SERP,5179.1" href="http://www.timeanddate.com/worldclock/china/shanghai">
+      <a h="ID=SERP,5167.1" href="http://www.timeanddate.com/worldclock/china/shanghai">
        Current local
        <strong>
         time
@@ -441,7 +461,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
       </a>
      </h2>
      <div class="b_caption">
-      <div class="b_attribution" u="5|5096|4818052663476627|k8tRzofyg6KO_yIw4otRx5yVGDoAZncK">
+      <div class="b_attribution" u="4|5096|4818052663869844|hGSltwfRs9aO_yIw4otRx5yVGDoAZncK">
        <cite class="sb_crmb">
         <span>
          <strong>
@@ -450,7 +470,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
          ›
         </span>
         <span>
-         <a h="ID=SERP,5173.1" href="http://www.timeanddate.com/time/">
+         <a h="ID=SERP,5161.1" href="http://www.timeanddate.com/time/">
           <strong>
            Time
           </strong>
@@ -459,13 +479,13 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
          ›
         </span>
         <span>
-         <a h="ID=SERP,5174.1" href="http://www.timeanddate.com/worldclock/">
+         <a h="ID=SERP,5162.1" href="http://www.timeanddate.com/worldclock/">
           World Clock
          </a>
         </span>
        </cite>
        <span class="c_tlbxTrg">
-        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5180.1">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5168.1">
         </span>
        </span>
       </div>
@@ -504,7 +524,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
     </li>
     <li class="b_ans">
      <h2>
-      <a h="ID=SERP,5274.1" href="/news/search?q=What+Time+Is+It+In+China&amp;qpvt=what+time+is+it+in+china&amp;FORM=EWRE">
+      <a h="ID=SERP,5272.1" href="/news/search?q=What+Time+Is+It+In+China&amp;qpvt=what+time+is+it+in+china&amp;FORM=EWRE">
        News about
        <strong>
         What Time Is It In China
@@ -521,41 +541,45 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
        <li>
         <div class="b_clearfix">
          <div class="b_float_img">
-          <a h="ID=SERP,5275.1" href="http://blogs.wsj.com/chinarealtime/2014/08/08/what-the-latest-economic-data-say-about-chinas-changing-growth-model/" target="">
-           <img alt="What the Latest Economic Data Say About China’s Changing Growth Model" class="rms_img" height="80" id="emb1" src="/imagenewsfetcher.aspx?q=http%3a%2f%2fsi.wsj.net%2fpublic%2fresources%2fimages%2fBN-DT840_0721ch_G_20140721080033.jpg&amp;id=FAD596A1E3979C9DDAA70A21DE22B879&amp;sz=80x80" title="What the Latest Economic Data Say About China’s Changing Growth Model - The Wall Street Journal" width="80"/>
+          <a h="ID=SERP,5273.1" href="http://blogs.wsj.com/chinarealtime/2014/08/08/bordeaux-in-beijing-china-hopes-to-build-must-see-destination-for-wine-lovers/" target="">
+           <img alt="Bordeaux in Beijing? China Hopes to Build Must-See Destination For Wine Lovers" class="rms_img" height="80" id="emb1" src="/imagenewsfetcher.aspx?q=http%3a%2f%2fsi.wsj.net%2fpublic%2fresources%2fimages%2fBN-EA398_wine_G_20140808033531.jpg&amp;id=A1D0E42C861DFB6CA8081EAEDCF4B14B&amp;sz=80x80" title="Bordeaux in Beijing? China Hopes to Build Must-See Destination For Wine Lovers - The Wall Street Journal" width="80"/>
           </a>
          </div>
          <div class="b_overflow">
           <h5>
-           <a h="ID=SERP,5280.1" href="http://blogs.wsj.com/chinarealtime/2014/08/08/what-the-latest-economic-data-say-about-chinas-changing-growth-model/">
-            What the Latest Economic Data Say About
+           <a h="ID=SERP,5278.1" href="http://blogs.wsj.com/chinarealtime/2014/08/08/bordeaux-in-beijing-china-hopes-to-build-must-see-destination-for-wine-lovers/">
+            Bordeaux in Beijing?
             <strong>
              China
             </strong>
-            ’s Changing Growth Model
+            Hopes to Build Must-See Destination For Wine Lovers
            </a>
           </h5>
           <div class="b_attribution">
            <cite>
             The Wall Street Journal
             <span class="b_secondaryText">
-             · 14 hours ago
+             · 17 hours ago
             </span>
            </cite>
           </div>
           <p>
-           In decades past, surging export growth, declining imports and a record trade surplus would have been a cause for joyous celebration in
+           Part of the attraction, visitors told
            <strong>
             China
            </strong>
-           as Beijing honed…
+           Real
+           <strong>
+            Time
+           </strong>
+           over the opening weekend, was the large plots of what they described as lavender growing in the garden.…
           </p>
          </div>
         </div>
        </li>
        <li>
         <h5>
-         <a h="ID=SERP,5284.1" href="http://www.businessinsider.com/glaxosmithkline-sex-tape-trial-in-china-2014-8">
+         <a h="ID=SERP,5282.1" href="http://www.businessinsider.com/glaxosmithkline-sex-tape-trial-in-china-2014-8">
           GlaxoSmithKline Blamed For Imprisonment Of Man In
           <strong>
            Chinese
@@ -567,14 +591,14 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
          <cite>
           The Business Insider
           <span class="b_secondaryText">
-           · 10 hours ago
+           · 11 hours ago
           </span>
          </cite>
         </div>
        </li>
        <li>
         <h5>
-         <a h="ID=SERP,5286.1" href="http://www.newsobserver.com/2014/08/08/4059667/duke-forges-a-new-educational.html?sp=/99/102/110/">
+         <a h="ID=SERP,5284.1" href="http://www.newsobserver.com/2014/08/08/4059667/duke-forges-a-new-educational.html?sp=/99/102/110/">
           Duke forges new educational path in
           <strong>
            China
@@ -585,7 +609,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
          <cite>
           The News &amp; Observer
           <span class="b_secondaryText">
-           · 1 hour ago
+           · 2 hours ago
           </span>
          </cite>
         </div>
@@ -599,7 +623,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
          <span class="sw_st2">
          </span>
         </div>
-        <a class="b_action b_accentColor" h="ID=SERP,5302.1" href="/profile/interests/action/add?CategoryId=news&amp;Query=What%20Time%20Is%20It%20In%20China&amp;IsDeviceOptedIn=0">
+        <a class="b_action b_accentColor" h="ID=SERP,5301.1" href="/profile/interests/action/add?CategoryId=news&amp;Query=What%20Time%20Is%20It%20In%20China&amp;IsDeviceOptedIn=0">
          Stay up-to-date on this news topic
         </a>
        </div>
@@ -608,7 +632,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
     </li>
     <li class="b_algo">
      <h2>
-      <a h="ID=SERP,5203.1" href="http://wwp.greenwichmeantime.com/time-zone/asia/china/time/">
+      <a h="ID=SERP,5179.1" href="http://wwp.greenwichmeantime.com/time-zone/asia/china/time/">
        <strong>
         China
        </strong>
@@ -634,7 +658,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
       </a>
      </h2>
      <div class="b_caption">
-      <div class="b_attribution" u="7|5098|5048344525407719|dAYWkfM7yur3uP6fc04xH1iqh8qHLY-T">
+      <div class="b_attribution" u="5|5097|5048344525800936|0qWZeexV37H3uP6fc04xH1iqh8qHLY-T">
        <cite>
         <strong>
          wwp.greenwichmeantime.com
@@ -653,7 +677,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
         </strong>
        </cite>
        <span class="c_tlbxTrg">
-        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5204.1">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5180.1">
         </span>
        </span>
       </div>
@@ -692,214 +716,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
     </li>
     <li class="b_algo">
      <h2>
-      <a h="ID=SERP,5215.1" href="http://www.worldtimezone.com/time/wtzresult.php?CiID=3539&amp;forma=12h">
-       Current local
-       <strong>
-        time
-       </strong>
-       in
-       <strong>
-        Guangzhou
-       </strong>
-       ,
-       <strong>
-        China
-       </strong>
-       -
-       <strong>
-        Guangzhou
-       </strong>
-       <strong>
-        China
-       </strong>
-       <strong>
-        Time
-       </strong>
-      </a>
-     </h2>
-     <div class="b_caption">
-      <div class="b_attribution" u="8|5099|4909346520825990|-C-nQ1-fhxK4gwyHk3ayDFwmagxjshQs">
-       <cite>
-        <strong>
-         www.worldtimezone.com
-        </strong>
-        /
-        <strong>
-         time
-        </strong>
-        /wtzresult.php?CiID=3539&amp;forma=12h
-       </cite>
-       <span class="c_tlbxTrg">
-        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5216.1">
-        </span>
-       </span>
-      </div>
-      <p>
-       Current local
-       <strong>
-        time
-       </strong>
-       in
-       <strong>
-        Guangzhou
-       </strong>
-       ,
-       <strong>
-        China
-       </strong>
-       : Wednesday, 06 Aug 2014 03:02 PM : Standard
-       <strong>
-        Time Zone
-       </strong>
-       : GMT/UTC + 08:00 hour: Daylight Saving
-       <strong>
-        Time
-       </strong>
-       : DST not applied
-      </p>
-     </div>
-    </li>
-    <li class="b_ans">
-     <div class="b_rs">
-      <h2>
-       Related searches for
-       <strong>
-        what time is it in china
-       </strong>
-      </h2>
-      <div class="b_rich">
-       <div class="b_vlist2col">
-        <ul>
-         <li>
-          <a h="ID=SERP,5308.1" href="/search?q=What+Time+Is+It+in+Shanghai&amp;FORM=QSRE1">
-           <strong>
-            What
-           </strong>
-           <strong>
-            Time
-           </strong>
-           <strong>
-            Is
-           </strong>
-           <strong>
-            It
-           </strong>
-           <strong>
-            in
-           </strong>
-           Shanghai
-          </a>
-         </li>
-         <li>
-          <a h="ID=SERP,5309.1" href="/search?q=What+Time+Is+It+in+England&amp;FORM=QSRE2">
-           <strong>
-            What
-           </strong>
-           <strong>
-            Time
-           </strong>
-           <strong>
-            Is
-           </strong>
-           <strong>
-            It
-           </strong>
-           <strong>
-            in
-           </strong>
-           England
-          </a>
-         </li>
-         <li>
-          <a h="ID=SERP,5310.1" href="/search?q=What+Time+Is+It+in+Hawaii&amp;FORM=QSRE3">
-           <strong>
-            What
-           </strong>
-           <strong>
-            Time
-           </strong>
-           <strong>
-            Is
-           </strong>
-           <strong>
-            It
-           </strong>
-           <strong>
-            in
-           </strong>
-           Hawaii
-          </a>
-         </li>
-        </ul>
-        <ul>
-         <li>
-          <a h="ID=SERP,5311.1" href="/search?q=What+Time+Is+It+in+Hong+Kong&amp;FORM=QSRE4">
-           <strong>
-            What
-           </strong>
-           <strong>
-            Time
-           </strong>
-           <strong>
-            Is
-           </strong>
-           <strong>
-            It
-           </strong>
-           <strong>
-            in
-           </strong>
-           Hong Kong
-          </a>
-         </li>
-         <li>
-          <a h="ID=SERP,5312.1" href="/search?q=What+Time+Is+It+in+Australia&amp;FORM=QSRE5">
-           <strong>
-            What
-           </strong>
-           <strong>
-            Time
-           </strong>
-           <strong>
-            Is
-           </strong>
-           <strong>
-            It
-           </strong>
-           <strong>
-            in
-           </strong>
-           Australia
-          </a>
-         </li>
-         <li>
-          <a h="ID=SERP,5313.1" href="/search?q=What+Time+Is+It+in+London&amp;FORM=QSRE6">
-           <strong>
-            What
-           </strong>
-           <strong>
-            Time
-           </strong>
-           <strong>
-            Is
-           </strong>
-           <strong>
-            It
-           </strong>
-           <strong>
-            in
-           </strong>
-           London
-          </a>
-         </li>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </li>
-    <li class="b_algo">
-     <h2>
-      <a h="ID=SERP,5227.1" href="http://24timezones.com/current_local/china_time.php">
+      <a h="ID=SERP,5203.1" href="http://24timezones.com/current_local/china_time.php">
        <strong>
         Time
        </strong>
@@ -915,7 +732,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
       </a>
      </h2>
      <div class="b_caption">
-      <div class="b_attribution" u="9|5063|4673230688551999|7SEOlNXGhppNI9m_k-9tTOEKo5mZCDdR">
+      <div class="b_attribution" u="7|5061|4673230688945224|FMkiYKE25XRNI9m_k-9tTOEKo5mZCDdR">
        <cite>
         <strong>
          24timezones.com
@@ -931,7 +748,7 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
         .php
        </cite>
        <span class="c_tlbxTrg">
-        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5228.1">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5204.1">
         </span>
        </span>
       </div>
@@ -971,6 +788,271 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
       </p>
      </div>
     </li>
+    <li class="b_ans">
+     <div class="b_rs">
+      <h2>
+       Related searches for
+       <strong>
+        what time is it in china
+       </strong>
+      </h2>
+      <div class="b_rich">
+       <div class="b_vlist2col">
+        <ul>
+         <li>
+          <a h="ID=SERP,5307.1" href="/search?q=What+Time+Is+It+in+Shanghai&amp;FORM=QSRE1">
+           <strong>
+            What
+           </strong>
+           <strong>
+            Time
+           </strong>
+           <strong>
+            Is
+           </strong>
+           <strong>
+            It
+           </strong>
+           <strong>
+            in
+           </strong>
+           Shanghai
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5308.1" href="/search?q=What+Time+Is+It+in+England&amp;FORM=QSRE2">
+           <strong>
+            What
+           </strong>
+           <strong>
+            Time
+           </strong>
+           <strong>
+            Is
+           </strong>
+           <strong>
+            It
+           </strong>
+           <strong>
+            in
+           </strong>
+           England
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5309.1" href="/search?q=What+Time+Is+It+in+Hawaii&amp;FORM=QSRE3">
+           <strong>
+            What
+           </strong>
+           <strong>
+            Time
+           </strong>
+           <strong>
+            Is
+           </strong>
+           <strong>
+            It
+           </strong>
+           <strong>
+            in
+           </strong>
+           Hawaii
+          </a>
+         </li>
+        </ul>
+        <ul>
+         <li>
+          <a h="ID=SERP,5310.1" href="/search?q=What+Time+Is+It+in+Hong+Kong&amp;FORM=QSRE4">
+           <strong>
+            What
+           </strong>
+           <strong>
+            Time
+           </strong>
+           <strong>
+            Is
+           </strong>
+           <strong>
+            It
+           </strong>
+           <strong>
+            in
+           </strong>
+           Hong Kong
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5311.1" href="/search?q=What+Time+Is+It+in+Australia&amp;FORM=QSRE5">
+           <strong>
+            What
+           </strong>
+           <strong>
+            Time
+           </strong>
+           <strong>
+            Is
+           </strong>
+           <strong>
+            It
+           </strong>
+           <strong>
+            in
+           </strong>
+           Australia
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5312.1" href="/search?q=What+Time+Is+It+in+London&amp;FORM=QSRE6">
+           <strong>
+            What
+           </strong>
+           <strong>
+            Time
+           </strong>
+           <strong>
+            Is
+           </strong>
+           <strong>
+            It
+           </strong>
+           <strong>
+            in
+           </strong>
+           London
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5215.1" href="http://www.worldtimezone.com/time/wtzresult.php?CiID=3539&amp;forma=12h">
+       Current local
+       <strong>
+        time
+       </strong>
+       in Guangzhou,
+       <strong>
+        China
+       </strong>
+       - Guangzhou
+       <strong>
+        China
+       </strong>
+       <strong>
+        Time
+       </strong>
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="8|5062|4909346521677960|NDNh-dTvGUu4gwyHk3ayDFwmagxjshQs">
+       <cite>
+        <strong>
+         www.worldtimezone.com
+        </strong>
+        /
+        <strong>
+         time
+        </strong>
+        /wtzresult.php?CiID=3539&amp;forma=12h
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5216.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       Current local
+       <strong>
+        time
+       </strong>
+       in Guangzhou,
+       <strong>
+        China
+       </strong>
+       : Thursday, 07 Aug 2014 02:53 PM : Standard
+       <strong>
+        Time Zone
+       </strong>
+       : GMT/UTC + 08:00 hour: Daylight Saving
+       <strong>
+        Time
+       </strong>
+       : DST not applied
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5227.1" href="http://24timezones.com/world_directory/time_in_beijing.php">
+       <strong>
+        What time is it
+       </strong>
+       in
+       <strong>
+        Beijing
+       </strong>
+       right now?
+       <strong>
+        Beijing
+       </strong>
+       ,
+       <strong>
+        China
+       </strong>
+       ...
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="9|5099|4969527552247110|97p6vx6qOffT4XDCmBPLZhbwnn1HQPz4">
+       <cite>
+        <strong>
+         24timezones.com
+        </strong>
+        /world_directory/
+        <strong>
+         time
+        </strong>
+        _in_
+        <strong>
+         beijing
+        </strong>
+        .php
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5228.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       Exact
+       <strong>
+        time
+       </strong>
+       in
+       <strong>
+        Beijing
+       </strong>
+       <strong>
+        time zone
+       </strong>
+       now. Official
+       <strong>
+        Beijing
+       </strong>
+       <strong>
+        timezone
+       </strong>
+       and
+       <strong>
+        time
+       </strong>
+       change dates for year 2014.
+      </p>
+     </div>
+    </li>
     <li class="b_pag">
      <nav aria-label="navigation">
       <h4 class="b_hide">
@@ -983,27 +1065,27 @@ _w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return funct
         </a>
        </li>
        <li>
-        <a h="ID=SERP,5255.1" href="/search?q=what+time+is+it+in+china&amp;first=8&amp;FORM=PERE">
+        <a h="ID=SERP,5255.1" href="/search?q=what+time+is+it+in+china&amp;first=9&amp;FORM=PERE">
          2
         </a>
        </li>
        <li>
-        <a h="ID=SERP,5256.1" href="/search?q=what+time+is+it+in+china&amp;first=22&amp;FORM=PERE1">
+        <a h="ID=SERP,5256.1" href="/search?q=what+time+is+it+in+china&amp;first=23&amp;FORM=PERE1">
          3
         </a>
        </li>
        <li>
-        <a h="ID=SERP,5257.1" href="/search?q=what+time+is+it+in+china&amp;first=36&amp;FORM=PERE2">
+        <a h="ID=SERP,5257.1" href="/search?q=what+time+is+it+in+china&amp;first=37&amp;FORM=PERE2">
          4
         </a>
        </li>
        <li>
-        <a h="ID=SERP,5258.1" href="/search?q=what+time+is+it+in+china&amp;first=50&amp;FORM=PERE3">
+        <a h="ID=SERP,5258.1" href="/search?q=what+time+is+it+in+china&amp;first=51&amp;FORM=PERE3">
          5
         </a>
        </li>
        <li>
-        <a class="sb_pagN" h="ID=SERP,5259.1" href="/search?q=what+time+is+it+in+china&amp;first=8&amp;FORM=PORE" title="Next ">
+        <a class="sb_pagN" h="ID=SERP,5259.1" href="/search?q=what+time+is+it+in+china&amp;first=9&amp;FORM=PORE" title="Next ">
          <div class="sw_next">
           Next
          </div>
@@ -1263,7 +1345,7 @@ sj_evt.bind("onP1",function(){_w.rms.js({'Ajax.Bundle':'\/sa\/0926172622\/Ajax.B
   <div id="aRmsDefer">
    <div style="display:none">
     <!--//<![CDATA[
-var keyMap={Content:"b_content",SearchForm:"sb_form",SBoxId:"sb_form_q",Notification:"b_notificationContainer",Identity:"id_h",Prefix:"b_",RmsDefer:"aRmsDefer",RmsKeys:["Shared.Bundle","Ajax.Bundle","Validation.Bundle"],AutoSug:"sa_as"};_G.JCache&&(_G.SRF=document.getElementById(keyMap.SearchForm).outerHTML,_G.CNT=document.getElementById(keyMap.Content)?document.getElementById(keyMap.Content).outerHTML:document.getElementById("sw_content").outerHTML);var Identity=Identity||{};(function(n,t,i,r,u,f,e,o,s){s.fbProfile=function(){var e="FBS",f=n(e,"N"),i=n(e,"FN"),r=n(e,"I"),u=n(e,"IB"),o;return f?(f=t(f),i&&(i=t(i)),r&&(r=t(r)),u&&(u=t(u)),o="/fd/s/a/anon.png",r||(r=o),u||(u=o),i||(i=f),{displayName:f,name:i,img:r,imgL:u,idp:"FB"}):null},s.wlProfile=function(){var u="WLS",i=n(u,"N"),r=n(u,"C");return i&&r&&s.wlImgSm&&s.wlImgLg?{displayName:t(i),name:t(i),img:s.wlImgSm.replace(/\{0\}/g,o(r)),imgL:s.wlImgLg.replace(/\{0\}/g,o(r)),idp:"WL"}:null},s.headerLoginMode=0,s.popupAuthenticate=function(n,t,r){var u,f,e,h;return(u=s.popupLoginUrls)&&(f=u[n]+(t?"&perms="+o(t):"")+(r?"&src="+o(r):""))&&(e=s.pop(f))&&(h=setInterval(function(){e.closed&&(i.fire("id:popup:close"),clearInterval(h))},100))},s.pop=function(n){return f.open(n,"idl","location=no,menubar=no,resizable=no,scrollbars=yes,status=no,titlebar=no,toolbar=no,width=1000,height=620")};var v=0,c=e("id_h"),l=e("id_l"),a="click";i.bind("onP1",function(){setTimeout(function(){c&&l&&(u("Blue/BlueIdentityDropdown_c",0,c,"mouseover",l,a,l,"focus"),r(l,a,function(n){s.hdrClk=n})),c&&(c.style.display="block")},50)},1)})(sj_cook.get,decodeURIComponent,sj_evt,sj_be,sj_jb,_w,_ge,encodeURIComponent,Identity,_G.RTL);(function(){function n(n){n.style.display="none"}function t(n){n.style.display="inline-block"}if(sj_evt&&Identity){var i=function(){var u=_ge("id_n"),i=_ge("id_p"),e=_ge("id_s"),o=_ge("id_a"),f=Identity.fbProfile()||Identity.wlProfile(),r=f?f.displayName:wln,s=f?f.img:null,h=f?f.idp:null;u&&e&&o&&r?(i&&s&&(i.title=r,i.src=s,t(i)),r.length>10&&(r=r.substring(0,10).replace(/\s+$/,"")+"…"),u.textContent=r,u.innerText=r,t(u),n(e),n(o),h=="WL"&&i&&(i.style.className+=" sw_spd")):u&&e&&o&&(n(u),i&&n(i),t(e),t(o))};sj_evt.bind("fb:connected",i,1),sj_evt.bind("wl:auth",i,1),sj_evt.bind("fb:auth",i,1)}})();sj_cook.set('_SS', 'C', 21, false, '/');;var Identity = Identity || {};(function(i){i.wlImgSm = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=16B55531FA0D472DB2377AC2F0908E61";i.wlImgLg = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=16B55531FA0D472DB2377AC2F0908E61";i.popupLoginUrls ={"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1407545954\u0026rver=6.0.5286.0\u0026wp=MBI\u0026wreply=https:%2F%2fssl.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1\u0026lc=1033\u0026id=264960","Facebook":"/fd/auth/signin?action=interactive\u0026provider=facebook\u0026return_url=http%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d1\u0026cancel_url=http%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d0\u0026input=popup\u0026sig=16B55531FA0D472DB2377AC2F0908E61\u0026perms=read_stream,user_photos,friends_photos"};})(Identity);;(function(){function n(){var n="SRCHHPGUSR",i=sj_cook.get(n,"CW"),t;i&&i==sj_b.clientWidth||sj_cook.set(n,"CW",sb_de.clientWidth||sj_b.clientWidth,1,"/"),t=sj_cook.get(n,"CH"),t&&t==sb_de.clientHeight||sj_cook.set(n,"CH",sb_de.clientHeight,1,"/")}sj_be(_w,"load",n),sj_be(_w,"resize",n)})();(function(){sb_ie&&sj_evt.bind("onP1",function(){sj_jb("UpdateDefaults",0)},1,50)})();sa_CTBConfig={"TRGT":"Actions for this site","CU":"http://cc.bingj.com/cache.aspx?q=what+time+is+it+in+china\u0026d={0}\u0026mkt=en-US\u0026setlang=en-US\u0026w={1}","CT":"Cached page"};(function(n,t,i){function f(){!u.end&&s===h&&s>0&&i(b,0)}function o(n){if(n&&n.length)return r[n]||(r[n]={start:0,end:0,actual:0,done:0},s++),r[n]}function y(){var t=[],n;for(n in r)r.hasOwnProperty(n)&&(t.push(n),u.actual+=r[n].actual);return t.sort(function(n,t){return r[t].actual-r[n].actual}),t}function p(){var f=[],e=0,t=y(),i,n,u;if(t.length>0)do if(i=t.shift(),n=r[i],!(n.start<_G.ST)){if(u='"'+i+'":{"S":'+(n.start-_G.ST)+',"E":'+(n.end-_G.ST)+',"T":'+n.actual+"}",e+=u.length+1,e>=v)break;f.push(u)}while(t.length>0);return f.join(",")}function w(){function r(n){return n=n.toString().replace(/\"/g,"'"),'"'+n+'"'}var i=[],t,n;for(t in e)e.hasOwnProperty(t)&&(n=e[t],typeof n!="number"&&(n=r(n)),i.push(r(t)+":"+n));return i.join(",")}function b(){u.end||(u.end=new Date,(new Image).src=_G.lsUrl+'&Type=Event.PPT&DATA={"S":'+(u.start-_G.ST)+',"E":'+(u.end-_G.ST)+',"T":'+u.actual+',"I":'+u.numInvalid+',"N":{'+p()+'},"M":{'+w()+"}}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:""))}function k(n){var t=r[n];t&&!t.done&&(t.done=1,h++,f())}function l(n){var r=n.task;if(r){var u=r,t=n.ns,f=n.delay||0;if(t&&t.length>0){c(t);function e(){var i=new Date,n;r(),n=new Date,a(t,i,n)}u=e}f>0?i(u,f):u()}}function a(n,t,i){var r,e;(f(),r=o(n),r)&&(e=i-t,(e<0||i<r.end||r.start&&t<r.start)&&++u.numInvalid,r.actual+=e,r.start||(r.start=t),r.end=i)}function c(n){f(),o(n)}function d(n,t){f(),e[n]=t}var u={start:new Date,end:0,actual:0,numInvalid:0},r={},s=0,h=0,e=t._cm||{},v=600;n("onP1",function(){var r,i,n;for(t.register=c,t.schedule=l,t.complete=k,t.recordTimings=a,t.reportCustomMetric=d,i=t._ns||[];r=i.shift();)o(r);for(n=t._reg||[];n.length>0;)l(n.shift());f()},1)})(sj_evt.bind,sched,sb_st);function wpc_Inst(n,t,i){var r=sj_evt.bind,u=0,f=0;r&&n&&t&&i&&(r("RMS.ImgAOLInit",function(){n.register(i)},1),r("RMS.ImgAOLCompleted",function(){n.schedule({task:function(){n.recordTimings(i,u,f),n.complete(i)}})},1),r("RMS.ImgAOLLoaded",function(n){var i,e,r;n.length<2||(i=n[1],i&&i.state==="success")&&(e=i.image,e&&sj_we(e,t))&&(r=i.timeStamp,u===0&&(u=r),r>f&&(f=r))},1))};new wpc_Inst(sched,_ge("b_context"),"TP");var fbpkgiid = fbpkgiid || {};fbpkgiid.page = 'SERP.5350';;var Feedback;(function(n){(function(){var t=_ge("sb_feedback");t!==null&&sj_be(t,"click",function(n){sj_jb("Feedback/Core",!0),sj_sp(n),function t(){var n={page:!0};if(typeof feedback=="undefined"||typeof jQuery=="undefined"){sb_st(t,50);return}feedback.core.load(n)}()})})(n.Footer||(n.Footer={}));var t=n.Footer})(Feedback||(Feedback={}));sf_fbCfg={sId:"6",wt:100};sj_evt.bind("xd:fba:checkbar",function(n){var t,i;n&&n.length>=2&&(t=sj_ce("iframe"),t.id="sw_tfbbi",i=_ge("sw_tfbb"),i&&(t.height="0",t.scrolling=t.frameBorder="no",t.src="/fd/fb/b?fv="+_G.Ver+"#"+n[1],i.appendChild(t)))});sj_evt.bind("onP1",function(){var n=sj_ce("iframe");n.height=n.width=0,n.frameBorder=n.scrolling="no",sj_b.appendChild(n),n.src="/fd/fb/r?v="+_G.Ver+"&sId="+sf_fbCfg.sId+(/&testhooks=1/.test(location.search)?"&testhooks=1":""),_w.logfb&&logfb("rr",+new Date)},1,_w.sf_fbCfg&&sf_fbCfg.wt?sf_fbCfg.wt:100);sa_config={"u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dwhat%2btime%2bis%2bit%2bin%2bchina%26qry%3d","mkt":"en-US","f":"sb_form","i":"sb_form_q","c":"sw_as","sid":"16B55531FA0D472DB2377AC2F0908E61","asf":1,"ePN":1,"gqs":1,"t":1,"eHS":1,"eHC":1,"d":100,"SCT":1500};;var sa_eL=!1,sj_evas,sj_etas,_iframeWindow;if(function(){function e(t,i,r,f){t&&sj_ue(t,i,e),sa_eL=sa_eL||n.eAI?r&&f.keyCode!==27:r,u||(u=!0,sa_loader())}function r(n,t,i){sj_be(n,t,function(r){e(n,t,i,sj_ev(r))})}var f=_ge("sa_qs"),n,t,i,u;f.value="bs",n=sa_config,t=_ge(n.i),t.setAttribute("autocomplete","off"),i=_ge(n.c),i||(i=sj_ce("div"),i.id=n.c,f.parentNode.appendChild(i)),u=!1,r(t,"click",!0),r(t,"keydown",!0),n.eAI&&r(t,"keyup",!0),n.ol&&r(_w,"load")}(),sj_evas=sj_ev,sj_etas=sj_et,sa_config.ic&&sb_ie){function getIframeWindow(){return _iframeWindow||(_iframeWindow=_ge("sa_con").contentWindow),_iframeWindow}sj_evas=function(){return getIframeWindow().event},sj_etas=function(){var n=getIframeWindow().event;return n?n.srcElement:null}};var bepcfg = bepcfg || {};bepcfg.wb = '1';;sj_evt.bind("onP1", function(){c=sj_cook.set;var t=_ge('id_rc');if(o=_ge('id_r')){o.style.display='block';}if(t)t.innerHTML='1';c('_SS','R','1',0,'/');c('_RwBf','s','70',1,'/');c('_RwBf','o','16',1,'/');f=_w.top!==_w.self;f&&c('_SS','F',f,0,'/');sj_evt.bind("bepready",function(args){args[1]('2');},1);}, 1, 0);;
+var keyMap={Content:"b_content",SearchForm:"sb_form",SBoxId:"sb_form_q",Notification:"b_notificationContainer",Identity:"id_h",Prefix:"b_",RmsDefer:"aRmsDefer",RmsKeys:["Shared.Bundle","Ajax.Bundle","Validation.Bundle"],AutoSug:"sa_as"};_G.JCache&&(_G.SRF=document.getElementById(keyMap.SearchForm).outerHTML,_G.CNT=document.getElementById(keyMap.Content)?document.getElementById(keyMap.Content).outerHTML:document.getElementById("sw_content").outerHTML);var Identity=Identity||{};(function(n,t,i,r,u,f,e,o,s){s.fbProfile=function(){var e="FBS",f=n(e,"N"),i=n(e,"FN"),r=n(e,"I"),u=n(e,"IB"),o;return f?(f=t(f),i&&(i=t(i)),r&&(r=t(r)),u&&(u=t(u)),o="/fd/s/a/anon.png",r||(r=o),u||(u=o),i||(i=f),{displayName:f,name:i,img:r,imgL:u,idp:"FB"}):null},s.wlProfile=function(){var u="WLS",i=n(u,"N"),r=n(u,"C");return i&&r&&s.wlImgSm&&s.wlImgLg?{displayName:t(i),name:t(i),img:s.wlImgSm.replace(/\{0\}/g,o(r)),imgL:s.wlImgLg.replace(/\{0\}/g,o(r)),idp:"WL"}:null},s.headerLoginMode=0,s.popupAuthenticate=function(n,t,r){var u,f,e,h;return(u=s.popupLoginUrls)&&(f=u[n]+(t?"&perms="+o(t):"")+(r?"&src="+o(r):""))&&(e=s.pop(f))&&(h=setInterval(function(){e.closed&&(i.fire("id:popup:close"),clearInterval(h))},100))},s.pop=function(n){return f.open(n,"idl","location=no,menubar=no,resizable=no,scrollbars=yes,status=no,titlebar=no,toolbar=no,width=1000,height=620")};var v=0,c=e("id_h"),l=e("id_l"),a="click";i.bind("onP1",function(){setTimeout(function(){c&&l&&(u("Blue/BlueIdentityDropdown_c",0,c,"mouseover",l,a,l,"focus"),r(l,a,function(n){s.hdrClk=n})),c&&(c.style.display="block")},50)},1)})(sj_cook.get,decodeURIComponent,sj_evt,sj_be,sj_jb,_w,_ge,encodeURIComponent,Identity,_G.RTL);(function(){function n(n){n.style.display="none"}function t(n){n.style.display="inline-block"}if(sj_evt&&Identity){var i=function(){var u=_ge("id_n"),i=_ge("id_p"),e=_ge("id_s"),o=_ge("id_a"),f=Identity.fbProfile()||Identity.wlProfile(),r=f?f.displayName:wln,s=f?f.img:null,h=f?f.idp:null;u&&e&&o&&r?(i&&s&&(i.title=r,i.src=s,t(i)),r.length>10&&(r=r.substring(0,10).replace(/\s+$/,"")+"…"),u.textContent=r,u.innerText=r,t(u),n(e),n(o),h=="WL"&&i&&(i.style.className+=" sw_spd")):u&&e&&o&&(n(u),i&&n(i),t(e),t(o))};sj_evt.bind("fb:connected",i,1),sj_evt.bind("wl:auth",i,1),sj_evt.bind("fb:auth",i,1)}})();sj_cook.set('_SS', 'C', 21, false, '/');;var Identity = Identity || {};(function(i){i.wlImgSm = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=59C3600FB512474C8631E9EB4CE6C508";i.wlImgLg = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=59C3600FB512474C8631E9EB4CE6C508";i.popupLoginUrls ={"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1407547024\u0026rver=6.0.5286.0\u0026wp=MBI\u0026wreply=https:%2F%2fssl.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1\u0026lc=1033\u0026id=264960","Facebook":"/fd/auth/signin?action=interactive\u0026provider=facebook\u0026return_url=http%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d1\u0026cancel_url=http%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d0\u0026input=popup\u0026sig=59C3600FB512474C8631E9EB4CE6C508\u0026perms=read_stream,user_photos,friends_photos"};})(Identity);;(function(){function n(){var n="SRCHHPGUSR",i=sj_cook.get(n,"CW"),t;i&&i==sj_b.clientWidth||sj_cook.set(n,"CW",sb_de.clientWidth||sj_b.clientWidth,1,"/"),t=sj_cook.get(n,"CH"),t&&t==sb_de.clientHeight||sj_cook.set(n,"CH",sb_de.clientHeight,1,"/")}sj_be(_w,"load",n),sj_be(_w,"resize",n)})();(function(){sb_ie&&sj_evt.bind("onP1",function(){sj_jb("UpdateDefaults",0)},1,50)})();sa_CTBConfig={"TRGT":"Actions for this site","CU":"http://cc.bingj.com/cache.aspx?q=what+time+is+it+in+china\u0026d={0}\u0026mkt=en-US\u0026setlang=en-US\u0026w={1}","CT":"Cached page"};(function(n,t,i){function f(){!u.end&&s===h&&s>0&&i(b,0)}function o(n){if(n&&n.length)return r[n]||(r[n]={start:0,end:0,actual:0,done:0},s++),r[n]}function y(){var t=[],n;for(n in r)r.hasOwnProperty(n)&&(t.push(n),u.actual+=r[n].actual);return t.sort(function(n,t){return r[t].actual-r[n].actual}),t}function p(){var f=[],e=0,t=y(),i,n,u;if(t.length>0)do if(i=t.shift(),n=r[i],!(n.start<_G.ST)){if(u='"'+i+'":{"S":'+(n.start-_G.ST)+',"E":'+(n.end-_G.ST)+',"T":'+n.actual+"}",e+=u.length+1,e>=v)break;f.push(u)}while(t.length>0);return f.join(",")}function w(){function r(n){return n=n.toString().replace(/\"/g,"'"),'"'+n+'"'}var i=[],t,n;for(t in e)e.hasOwnProperty(t)&&(n=e[t],typeof n!="number"&&(n=r(n)),i.push(r(t)+":"+n));return i.join(",")}function b(){u.end||(u.end=new Date,(new Image).src=_G.lsUrl+'&Type=Event.PPT&DATA={"S":'+(u.start-_G.ST)+',"E":'+(u.end-_G.ST)+',"T":'+u.actual+',"I":'+u.numInvalid+',"N":{'+p()+'},"M":{'+w()+"}}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:""))}function k(n){var t=r[n];t&&!t.done&&(t.done=1,h++,f())}function l(n){var r=n.task;if(r){var u=r,t=n.ns,f=n.delay||0;if(t&&t.length>0){c(t);function e(){var i=new Date,n;r(),n=new Date,a(t,i,n)}u=e}f>0?i(u,f):u()}}function a(n,t,i){var r,e;(f(),r=o(n),r)&&(e=i-t,(e<0||i<r.end||r.start&&t<r.start)&&++u.numInvalid,r.actual+=e,r.start||(r.start=t),r.end=i)}function c(n){f(),o(n)}function d(n,t){f(),e[n]=t}var u={start:new Date,end:0,actual:0,numInvalid:0},r={},s=0,h=0,e=t._cm||{},v=600;n("onP1",function(){var r,i,n;for(t.register=c,t.schedule=l,t.complete=k,t.recordTimings=a,t.reportCustomMetric=d,i=t._ns||[];r=i.shift();)o(r);for(n=t._reg||[];n.length>0;)l(n.shift());f()},1)})(sj_evt.bind,sched,sb_st);function wpc_Inst(n,t,i){var r=sj_evt.bind,u=0,f=0;r&&n&&t&&i&&(r("RMS.ImgAOLInit",function(){n.register(i)},1),r("RMS.ImgAOLCompleted",function(){n.schedule({task:function(){n.recordTimings(i,u,f),n.complete(i)}})},1),r("RMS.ImgAOLLoaded",function(n){var i,e,r;n.length<2||(i=n[1],i&&i.state==="success")&&(e=i.image,e&&sj_we(e,t))&&(r=i.timeStamp,u===0&&(u=r),r>f&&(f=r))},1))};new wpc_Inst(sched,_ge("b_context"),"TP");var fbpkgiid = fbpkgiid || {};fbpkgiid.page = 'SERP.5350';;var Feedback;(function(n){(function(){var t=_ge("sb_feedback");t!==null&&sj_be(t,"click",function(n){sj_jb("Feedback/Core",!0),sj_sp(n),function t(){var n={page:!0};if(typeof feedback=="undefined"||typeof jQuery=="undefined"){sb_st(t,50);return}feedback.core.load(n)}()})})(n.Footer||(n.Footer={}));var t=n.Footer})(Feedback||(Feedback={}));sf_fbCfg={sId:"6",wt:100};sj_evt.bind("xd:fba:checkbar",function(n){var t,i;n&&n.length>=2&&(t=sj_ce("iframe"),t.id="sw_tfbbi",i=_ge("sw_tfbb"),i&&(t.height="0",t.scrolling=t.frameBorder="no",t.src="/fd/fb/b?fv="+_G.Ver+"#"+n[1],i.appendChild(t)))});sj_evt.bind("onP1",function(){var n=sj_ce("iframe");n.height=n.width=0,n.frameBorder=n.scrolling="no",sj_b.appendChild(n),n.src="/fd/fb/r?v="+_G.Ver+"&sId="+sf_fbCfg.sId+(/&testhooks=1/.test(location.search)?"&testhooks=1":""),_w.logfb&&logfb("rr",+new Date)},1,_w.sf_fbCfg&&sf_fbCfg.wt?sf_fbCfg.wt:100);sa_config={"u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dwhat%2btime%2bis%2bit%2bin%2bchina%26qry%3d","mkt":"en-US","f":"sb_form","i":"sb_form_q","c":"sw_as","sid":"59C3600FB512474C8631E9EB4CE6C508","asf":1,"ePN":1,"gqs":1,"t":1,"eHS":1,"eHC":1,"d":100,"SCT":1500};;var sa_eL=!1,sj_evas,sj_etas,_iframeWindow;if(function(){function e(t,i,r,f){t&&sj_ue(t,i,e),sa_eL=sa_eL||n.eAI?r&&f.keyCode!==27:r,u||(u=!0,sa_loader())}function r(n,t,i){sj_be(n,t,function(r){e(n,t,i,sj_ev(r))})}var f=_ge("sa_qs"),n,t,i,u;f.value="bs",n=sa_config,t=_ge(n.i),t.setAttribute("autocomplete","off"),i=_ge(n.c),i||(i=sj_ce("div"),i.id=n.c,f.parentNode.appendChild(i)),u=!1,r(t,"click",!0),r(t,"keydown",!0),n.eAI&&r(t,"keyup",!0),n.ol&&r(_w,"load")}(),sj_evas=sj_ev,sj_etas=sj_et,sa_config.ic&&sb_ie){function getIframeWindow(){return _iframeWindow||(_iframeWindow=_ge("sa_con").contentWindow),_iframeWindow}sj_evas=function(){return getIframeWindow().event},sj_etas=function(){var n=getIframeWindow().event;return n?n.srcElement:null}};var bepcfg = bepcfg || {};bepcfg.wb = '1';;sj_evt.bind("onP1", function(){c=sj_cook.set;var t=_ge('id_rc');if(o=_ge('id_r')){o.style.display='block';}if(t)t.innerHTML='1';c('_SS','R','1',0,'/');c('_RwBf','s','70',1,'/');c('_RwBf','o','16',1,'/');f=_w.top!==_w.self;f&&c('_SS','F',f,0,'/');sj_evt.bind("bepready",function(args){args[1]('2');},1);}, 1, 0);;
 //]]>-->
    </div>
    <div style="display:none">
