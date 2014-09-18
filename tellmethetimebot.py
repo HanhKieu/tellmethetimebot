@@ -1,6 +1,8 @@
 #!/usr/bin/python3.4
 import requests
 from bs4 import BeautifulSoup
+from twython import Twython
+from twython import TwythonStreamer
 
 def url_generator(user_input):
     words = user_input.split(" ")
@@ -40,12 +42,26 @@ def get_string_from_bing(soup):
 
 def main():
 
+    file = open('testtext.txt','w')
 
-    user_input = input("Enter Query Request: ")
-    website_url = url_generator(user_input)
-    r = requests.get(website_url)
-    soup = BeautifulSoup(r.content)
-    tweet = get_string_from_bing(soup)
-    print(tweet)
+    APP_KEY = 'rwYJa5yvkPvLcfEE6k5wa476v'
+    APP_SECRET = 'tDmmgdbWhZHtzBKbJih5rrXdlX7hlKRBuw5W9vzCPygDtZLfKN'
+    #APPKEY AND SECRET ARE FOR 0AUTH2, READ ONLY , NO WRITING TO TWITTER
+    twitter = Twython(APP_KEY , APP_SECRET, oauth_version = 2)
+    ACCESS_TOKEN = twitter.obtain_access_token()
+    twitter = Twython(APP_KEY, access_token= ACCESS_TOKEN)
+
+    timeline = twitter.get_user_timeline(screen_name = 'hailthekid' , count = 3)
+    print(timeline[2]['text'])
+
+
+    # user_input = input("Enter Query Request: ")
+    # website_url = url_generator(user_input)
+    # r = requests.get(website_url)
+    # soup = BeautifulSoup(r.content)
+    # tweet = get_string_from_bing(soup)
+    # print(tweet)
+
+
 
 main()
