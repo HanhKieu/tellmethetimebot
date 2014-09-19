@@ -1,7 +1,7 @@
-TELL ME THE TIME BOT
+#TELL ME THE TIME BOT
 ____________________________________________________________________________________
 
-TABLE OF CONTENTS 
+#TABLE OF CONTENTS 
 ___________________________________________________________________________________
 0. PREFACE (WHY I CREATED THIS)
 1. HOW IT WORKS 
@@ -10,7 +10,7 @@ ________________________________________________________________________________
 4. EXPLAINING THE SOURCE CODE
 
 
-0.PREFACE (WHY I CREATED THIS)
+#0.PREFACE (WHY I CREATED THIS)
 ___________________________________________________________________________________
 
 This is one of my first Python projects ever, and you guessed it!....it's useless!
@@ -28,7 +28,7 @@ The name tell_me_the_time_bot was too long for twitter so I condensed it down to
 
 
 
-1.HOW IT WORKS / FINDING OUT THE TIME OF ANY LOCATION BY TWEETING 
+#1.HOW IT WORKS / FINDING OUT THE TIME OF ANY LOCATION BY TWEETING 
 _____________________________________________________________________________________
 
 To find out the time of any location on earth ,make a tweet mentioning @whatsthetimebot with any location on earth.
@@ -43,7 +43,7 @@ Many common typos are also accepted, for example tweeting "@whatsthetimebot Time
 
 
 
-2.REQUIREMENTS
+#2.REQUIREMENTS
 _____________________________________________________________________________________
 
 To use the source code you must have:
@@ -54,7 +54,7 @@ To use the source code you must have:
  5. Not a real requirement but Pycharm community edition is a great IDE!
 
 
-3.DEPLOYING THIS SPECIFIC TWITTER BOT FOR YOURSELF
+#3.DEPLOYING THIS SPECIFIC TWITTER BOT FOR YOURSELF
 _______________________________________________________________________________________
 Make sure you meet all requirements in 2. before starting this.
 0. Register for a twitter app on dev.twitter.com
@@ -72,11 +72,15 @@ The twythondocs can be found here
  
  keys.py
  ----------
- APP_KEY = 'rwYJa5yvkPvLcfEwerwer76v'
+APP_KEY = 'rwYJa5yvkPvLcfEwerwer76v'
+
 APP_SECRET = 'tDmmgdbWhZHtzBKbwerewrwerwfKN'
+
 OAUTH_TOKEN = '2718807werwerwerQLmVF3Gzs'
+
 OAUTH_TOKEN_SECRET = '1HiTaubCcn36SlaSwerewerwerewqBCaPm95'
-#end of keys.py
+
+end of keys.py
 -------------
 
 Those jumbled letters are your tokens and keys provided 
@@ -91,7 +95,7 @@ Also run the code in Pycharm. I use that for an IDE and it's amazing.
 
 --------          -----------   -----     -----     ---   -- -  ------  --
 
-4.EXPLAINING THE SOURCE CODE
+#4.EXPLAINING THE SOURCE CODE
 _________________________________________________________________________________
 
 1.A stream object is a created from the MyStreamer class.
