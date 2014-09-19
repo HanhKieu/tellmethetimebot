@@ -40,19 +40,49 @@ def get_string_from_bing(soup):
 
     return bing_string
 
-def main():
-
-    file = open('testtext.txt','w')
-
+def initiate_read():
     APP_KEY = 'rwYJa5yvkPvLcfEE6k5wa476v'
     APP_SECRET = 'tDmmgdbWhZHtzBKbJih5rrXdlX7hlKRBuw5W9vzCPygDtZLfKN'
     #APPKEY AND SECRET ARE FOR 0AUTH2, READ ONLY , NO WRITING TO TWITTER
     twitter = Twython(APP_KEY , APP_SECRET, oauth_version = 2)
     ACCESS_TOKEN = twitter.obtain_access_token()
-    twitter = Twython(APP_KEY, access_token= ACCESS_TOKEN)
+    return Twython(APP_KEY, access_token= ACCESS_TOKEN)
 
-    timeline = twitter.get_user_timeline(screen_name = 'hailthekid' , count = 3)
+
+
+def initiate_write():
+    APP_KEY = 'rwYJa5yvkPvLcfEE6k5wa476v'
+    APP_SECRET = 'tDmmgdbWhZHtzBKbJih5rrXdlX7hlKRBuw5W9vzCPygDtZLfKN'
+    # twitter = Twython(APP_KEY,APP_SECRET)
+    OAUTH_TOKEN = '2718807608-M1MQLQrdrOBQ6lDXdOuvZY5GyJKA1yQLmVF3Gzs'
+    OAUTH_TOKEN_SECRET = '1HiTaubCcn36SlaSFrZvEnlELRL9bBWAcMyIYqBCaPm95'
+    # auth = twitter.get_authentication_tokens(callback_url= None)
+    #
+    # OAUTH_TOKEN = auth['oauth_token']
+    # OAUTH_TOKEN_SECRET = auth['oauth_token_secret']
+    #
+    # twitter = Twython(APP_KEY,APP_SECRET,
+    #                   OAUTH_TOKEN,OAUTH_TOKEN_SECRET)
+    # print(auth)
+    # pin_input = input("enter pin here")
+    # final_step = twitter.get_authorized_tokens(pin_input)
+    # OAUTH_TOKEN = final_step['oauth_token']
+    # OAUTH_TOKEN_SECRET = final_step['oauth_token_secret']
+    #
+    # print(OAUTH_TOKEN)
+    # print(OAUTH_TOKEN_SECRET)
+
+    return Twython(APP_KEY,APP_SECRET,OAUTH_TOKEN,OAUTH_TOKEN_SECRET)
+
+def main():
+
+
+    twitter_read = initiate_read()
+    twitter = initiate_write()
+    twitter.update_status(status = "suck my dddWERWERdass")
+    timeline = twitter_read.get_user_timeline(screen_name = 'hailthekid' , count = 3)
     print(timeline[2]['text'])
+
 
 
     # user_input = input("Enter Query Request: ")
