@@ -1,6 +1,10 @@
 #TELL ME THE TIME BOT
 ____________________________________________________________________________________
 
+Tell me the time bot is a twitter bot that tells you then time of any location on earth 
+when you mention it in
+a tweet with a location provided.
+
 #TABLE OF CONTENTS 
 ___________________________________________________________________________________
 0. PREFACE (WHY I CREATED THIS)
