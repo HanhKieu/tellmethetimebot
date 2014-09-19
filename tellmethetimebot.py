@@ -3,10 +3,11 @@ import requests
 from bs4 import BeautifulSoup
 from twython import Twython
 from twython import TwythonStreamer
-
+from keys import APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET #HIDING MY PERSONAL INFO FROM YOU GUYS
 
 
 def url_generator(user_input):
+    #this generates a search URL from bing, given the user's input
     words = user_input.split(" ")
     website_url = "http://www.bing.com/search?q="
     count = 0
@@ -22,6 +23,11 @@ def url_generator(user_input):
 
 
 def get_string_from_bing(soup):
+    #this function takes in the beautifully formatted html, called 'soup'
+    #it parses the soup for the time
+    #in this case there are three possibilities in the html of what the time could be
+    #because there are three possibilities we use try and excepts to catch any errors
+
     current_time_text = soup.find_all("div", class_="b_focusLabel")
     current_time = soup.find_all("div", class_="b_focusTextLarge")
     standard_time = soup.find_all("div", class_="b_factrow")
@@ -43,57 +49,40 @@ def get_string_from_bing(soup):
     return bing_string
 
 
-APP_KEY = 'rwYJa5yvkPvLcfEE6k5wa476v'
-APP_SECRET = 'tDmmgdbWhZHtzBKbJih5rrXdlX7hlKRBuw5W9vzCPygDtZLfKN'
-OAUTH_TOKEN = '2718807608-M1MQLQrdrOBQ6lDXdOuvZY5GyJKA1yQLmVF3Gzs'
-OAUTH_TOKEN_SECRET = '1HiTaubCcn36SlaSFrZvEnlELRL9bBWAcMyIYqBCaPm95'
-
 
 class MyStreamer(TwythonStreamer):
-    global APP_KEY
-    global APP_SECRET
-    global OAUTH_TOKEN
-    global OAUTH_TOKEN_SECRET
+
 
     twitter =  Twython(APP_KEY ,APP_SECRET ,OAUTH_TOKEN ,OAUTH_TOKEN_SECRET)
     def on_success(self, data):
-        if 'text' in data:
+        if 'text' in data: #text is a dictionary item in data
             tweet = data['text']
             tweet = tweet.replace('@whatsthetimebot','')
+            tweet = 'What time is it in' + tweet
             website_url = url_generator(tweet)
             r = requests.get(website_url)
             soup = BeautifulSoup(r.content)
             tweet = get_string_from_bing(soup)
-            tweet = '@' + str(data['user']['screen_name']) + ' ' + tweet
-            MyStreamer.twitter.update_status(status = tweet ,in_reply_to_status_id = data['id'])
+            success = False
+            for i in range(0,len(tweet) - 1): #if there is a number in the tweet. Lazy programming...
+                if tweet[i].isdigit():
+                    tweet = '@' + str(data['user']['screen_name']) + ' ' + tweet
+                    MyStreamer.twitter.update_status(status = tweet ,in_reply_to_status_id = data['id'])
+                    success = True
+                    break
+            if(success == False):
+                tweet = '@' + str(data['user']['screen_name']) + ' ' + 'Try tweeting:"What time is it in (location)"'
+                MyStreamer.twitter.update_status(status = tweet ,in_reply_to_status_id = data['id'])
+
+
 
     def on_error(self, status_code, data):
         print(status_code)
 
 def main():
 
+    stream = MyStreamer(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
-
-
-
-
-
-
-
-
-    stream = MyStreamer(APP_KEY, APP_SECRET,
-                        OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     stream.statuses.filter(track = '@whatsthetimebot')
-
-
-
-    # user_input = input("Enter Query Request: ")
-    # website_url = url_generator(user_input)
-    # r = requests.get(website_url)
-    # soup = BeautifulSoup(r.content)
-    # tweet = get_string_from_bing(soup)
-    # print(tweet)
-
-
 
 main()
